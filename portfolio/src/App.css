@@ -1,0 +1,37 @@
+
+img{
+  width: 100%;
+}
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -85vh;
+background-color: white;
+}
+
+h2{
+  background-color: white;
+
+}
+.white-circle{
+  background-color: white;
+  padding: 75px;
+  border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.gold-border{
+  border: 2px solid goldenrod ;
+  background-color: white;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height:250px;
+width: 250px;
+}

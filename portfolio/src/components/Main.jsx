@@ -8,7 +8,7 @@ export default function Main() {
 
       <section className='about-me'>
         <img className='about-me-image' src={gif} alt="A picture of me" />
-        <p className='description'> If you'd ask me two years ago, I would have never guessed I'd become a software engineer, let alone anything to do with programming. Sure I was a sudoku fanatic and puzzle enthusiat, but I had never attributed those passions as anything but pleasure for me to enjoy in pass time. After multiple conversation with friends in the tech space and some research, I thought, "why not me? Is the idea so far fetched?" </p>
+        <p className='description'> If you'd ask me two years ago, I would have never guessed I'd become a software engineer, let alone anything to do with programming. Sure I was a sudoku fanatic and puzzle enthusiast, but I had never attributed those passions as anything but simple pleasures for me to enjoy to pass the time. After multiple conversation with my boyfriend and some research, I thought, "Why not me? Is the idea so far fetched?"... <a className='blog-post' href="https://medium.com/@ashleymadera/who-me-1a65ee159858">Read More</a> </p>
       </section>
 
 
@@ -42,7 +42,7 @@ export default function Main() {
           </section>
           <section className='project-three'>
             <a href="https://castaway-yarn.netlify.app/">
-              <img className="three-image" src="https://i.imgur.com/rEhMYM3.png" alt="Shipt Project" />
+              <img className="three-image" src="https://i.imgur.com/rEhMYM3.png" alt="Castaway" />
             </a>
           </section>
         </main>

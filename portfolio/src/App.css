@@ -114,4 +114,9 @@ justify-content: center;
 text-align: center;
 width: 500px;
 margin-left: 15px;
+flex-direction: column;
+}
+.blog-post{
+  text-decoration: none;
+  color: black;
 }

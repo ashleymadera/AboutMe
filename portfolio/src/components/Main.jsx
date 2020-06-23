@@ -8,7 +8,7 @@ export default function Main() {
 
       <section className='about-me'>
         <img className='about-me-image' src={gif} alt="A picture of me" />
-        <p className='description'> If you'd ask me two years ago, I would have never guessed I'd become a software engineer, let alone anything to do with programming. Sure I was a sudoku fanatic and puzzle enthusiats, but I had never attributed those passions as anything but pleassure for me to enjoy in pass time. After multiple conversation with friends is the tech space and some research, I thought, "why not me? Is the idea so far fetched?" </p>
+        <p className='description'> If you'd ask me two years ago, I would have never guessed I'd become a software engineer, let alone anything to do with programming. Sure I was a sudoku fanatic and puzzle enthusiat, but I had never attributed those passions as anything but pleasure for me to enjoy in pass time. After multiple conversation with friends in the tech space and some research, I thought, "why not me? Is the idea so far fetched?" </p>
       </section>
 
 

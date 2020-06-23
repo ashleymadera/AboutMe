@@ -7,6 +7,7 @@ import { Route } from 'react-router-dom'
 function App() {
   return (
     <>
+      <title>Ashley</title>
       <div className="App">
         <Header />
       </div>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function header() {
   return (
     <header>
-      <img src="https://i.imgur.com/zUwMgt0.jpg" alt="palm leaves" />
+      <img className="header-image" src="https://i.imgur.com/zUwMgt0.jpg" alt="palm leaves" />
 
       <section className='header-intro'>
         <div className='white-circle'>

@@ -1,31 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 body{
   background-color: #f6e4e6;
 }
 h2{
   background-color: white;
 }
-      img{
-        width: 100%;
-      }
-.header-intro{
-  align-items: center;
-  background-color: white;
-  display: flex;
-  font-family: 'Poiret One', cursive;
-  justify-content: center;
-  margin-top: -75vh;
-}
-.white-circle{
-  align-items: center;
-  background-color: white;
-  border-radius: 50%;
-  display: flex;
-  height: 300px;
-  justify-content: center;
-  padding: 75px;
-  width: 300px; 
+.header-image{
+   width: 100%;
 }
 .gold-border{
   align-items: center;
@@ -37,21 +21,97 @@ h2{
   justify-content: center;
   width: 250px;
 }
-.seperator{
-  background-color: #f6e4e6;
-  height: 350px; 
-}
-.resume-blog-box{
+.header-intro{
+  align-items: center;
+  background-color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  font-family: 'Poiret One', cursive;
+  justify-content: center;
+  margin-top: -75vh;
 }
 .projects{
-  align-items: center;
   background-color: #f6e4e6;
   display: flex;
   flex-direction: row;
   height: 300px;
   justify-content: space-between;
+  margin: 30px 30px 30px 30px;
+  font-family: 'Poiret One', cursive;
 }
 
+.seperator{
+  background-color: #f6e4e6;
+  height: 300px; 
+}
+.project-title{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+  justify-content: center;
+  margin: 50px 40px 40px 40px;
+
+}
+.white-circle{
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  padding: 75px;
+  width: 300px; 
+}
+.blog{
+  height: 100px;
+  width: 100px;
+}
+.my-resume{
+  height: 100px;
+  width: 100px;
+}
+.git{
+  height: 100px;
+  width: 100px;
+}
+.about-me-image{
+  height: 200px;
+  width: 220px;
+}
+.about-me{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 60px;
+font-family: 'Gruppo', cursive;
+font-size: 20px;
+font-weight: bold;
+
+}
+.one-image{
+  height: 150px;
+  width: 150px;
+}
+.two-image{
+  height: 150px;
+  width: 150px;
+}
+.three-image{
+  height: 150px;
+  width: 150px;
+}
+.main-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.description{
+  display: flex;
+justify-content: center;
+text-align: center;
+width: 500px;
+margin-left: 15px;
+}

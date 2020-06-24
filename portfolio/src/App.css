@@ -102,6 +102,10 @@ font-weight: bold;
   height: 150px;
   width: 150px;
 }
+.four-image{
+  height: 150px;
+  width: 150px;
+}
 .main-box{
   display: flex;
   flex-direction: row;

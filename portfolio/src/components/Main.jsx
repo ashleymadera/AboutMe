@@ -40,6 +40,13 @@ export default function Main() {
               <img className="two-image" src="https://i.imgur.com/0Hix37U.png" alt="Wormy Project" />
             </a>
           </section>
+
+          <section className='project-four'>
+            <a href="http://shiptdev.surge.sh/">
+              <img className="four-image" src="https://i.imgur.com/bxqcokm.png" alt="Shipt" />
+            </a>
+          </section>
+
           <section className='project-three'>
             <a href="https://castaway-yarn.netlify.app/">
               <img className="three-image" src="https://i.imgur.com/rEhMYM3.png" alt="Castaway" />

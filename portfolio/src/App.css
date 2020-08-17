@@ -124,8 +124,8 @@ font-size: 30px;
 }
 
 .project-image{
-  height: 250px;
-  width: 250px;
+  height: 175px;
+  width: 175px;
   border-radius: 75%;
 }
 
@@ -168,10 +168,10 @@ body {
   /* width: 20vw;
   height: 30vh; */
   border-radius:50% ;
-  min-height: 300px;
-  min-width: 300px;
-  max-width: 301px;
-  max-height: 300px;
+  min-height: 225px;
+  min-width: 225px;
+  max-width: 225px;
+  max-height: 225px;
   background: #f2f2f2;
   overflow:  hidden;
   transition: all 0.5s ease-in;

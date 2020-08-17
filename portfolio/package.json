@@ -35,10 +35,5 @@
   "devDependencies": {
     "git-scripts": "^0.4.3",
     "surge": "^0.21.6"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project /Users/ashleymadera/Desktop/Projects/AboutMe/portfolio --domain ashleymadera.surge.sh"
-    }
   }
 }

@@ -4,9 +4,9 @@ export default function Nav() {
   return (
     <>
       <section className='nav-bar'>
-        <div>Bio</div>
-        <div>Projects</div>
-        <div>Contact</div>
+        <div className='nav-opt'>Bio</div>
+        <div className='nav-opt'>Projects</div>
+        <div className='nav-opt'>Contact</div>
       </section>
 
     </>

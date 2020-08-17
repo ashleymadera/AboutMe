@@ -6,12 +6,12 @@ export default function Main() {
     <>
       <section className='main-box'>
         <section className='about-me'>
-          <h3 className='project-title'>BIO</h3>
+          <h3 id='bio' className='project-title'>BIO</h3>
           <p className='description'> If you'd ask me three years ago, I would have never guessed I'd become a software engineer, let alone anything to do with programming. Sure I was a sudoku fanatic and puzzle enthusiast, but I had never attributed those passions as anything but simple pleasures for me to enjoy to pass the time. After multiple conversation with my boyfriend and some research, I thought, "Why not me? Is the idea so far fetched?"... <a className='blog-post' href="https://medium.com/@ashleymadera/who-me-1a65ee159858">Read More</a> </p>
         </section>
 
 
-        <section className='projects'>
+        <section id='project' className='projects'>
           <h3 className='project-title'>PROJECTS</h3>
           <main className='project-icons'>
 
@@ -71,21 +71,22 @@ export default function Main() {
 
           </main>
         </section>
-        <section className='contact-icons'>
-          <h3 className='project-title'>CONTACT</h3>
+        <section className='contact-box'>
+          <h3 id='contact' className='project-title'>CONTACT</h3>
+          <div className='contact-icons'>
+            <a
+              href="https://docdro.id/kW3tnS8">
+              <img className="my-resume" src="https://i.imgur.com/a8CsEol.png" alt="LinkedIn logo" />
+            </a>
 
-          <a
-            href="https://docdro.id/kW3tnS8">
-            <img className="my-resume" src="https://i.imgur.com/a8CsEol.png" alt="LinkedIn logo" />
-          </a>
+            <a href="https://medium.com/@ashleymadera">
+              <img className="blog" src="https://i.imgur.com/spg2A6a.png" alt="Medium Blog logo" />
+            </a>
 
-          <a href="https://medium.com/@ashleymadera">
-            <img className="blog" src="https://i.imgur.com/spg2A6a.png" alt="Medium Blog logo" />
-          </a>
-
-          <a href="https://github.com/ashleymadera">
-            <img className="git" src="https://i.imgur.com/AAdVeJw.png" alt="Github Blog logo" />
-          </a>
+            <a href="https://github.com/ashleymadera">
+              <img className="git" src="https://i.imgur.com/AAdVeJw.png" alt="Github Blog logo" />
+            </a>
+          </div>
         </section>
       </section>
     </>

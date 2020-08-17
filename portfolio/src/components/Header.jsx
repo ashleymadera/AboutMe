@@ -1,20 +1,23 @@
 import React from 'react'
+import '../App.css';
 
 export default function header() {
   return (
     <header>
-      <img className="header-image" src="https://i.imgur.com/zUwMgt0.jpg" alt="palm leaves" />
-
-      <section className='header-intro'>
-        <div className='white-circle'>
-          <div className='gold-border'>
-            <h2>Ashley Madera</h2>
-            <h3>Software Engineer</h3>
+      <section className='circle-section'>
+        <div className='name-title-circle'>
+          <div class="container">
+            <div class="product">
+              <div class="effect-1"></div>
+              <div class="effect-2"></div>
+              <div class="content">
+                <div class="exercise">Ashley Madera
+                <h3>Software Engineer</h3></div>
+              </div>
+            </div>
           </div>
         </div>
-
       </section>
-
     </header>
   )
 }

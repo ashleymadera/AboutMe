@@ -84,7 +84,7 @@ font-size: 30px;
   justify-content: space-evenly;
   margin-bottom: 60px;
   font-family: 'Gruppo', cursive;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 .description{
@@ -234,7 +234,7 @@ body {
   transition: all 0.5s ease-in;
   pointer-events: none;
   width: 100%;
-  height: 250%;
+  height: 270%;
   overflow: hidden;
 }
 
@@ -296,7 +296,7 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 600px;
+  max-width: 500px;
   margin: 1vw auto;
   position: relative;
   text-align: center;
@@ -419,7 +419,7 @@ h1 {
     height: 400px;
   }
   .quotes .bg {
-    height: 230%;
+    height: 280%;
   }
   .contact-box{
     height: 175px;

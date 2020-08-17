@@ -38,7 +38,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./public --domain steveafrost.com"
+      "pre-push": "surge --project /Users/ashleymadera/Desktop/Projects/AboutMe/portfolio --domain ashleymadera.surge.sh"
     }
   }
 }
